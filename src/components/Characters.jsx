@@ -102,7 +102,7 @@ const initialChar = { name: '', img: '', gender: '' };
             <div
               key={char.id}
               className='bg-gray-800 border border-indigo-800 rounded-lg overflow-hidden relative'>
-              <img src={char.img} className='w-full h-56 object-cover' />
+              <img src={char.img} className='w-full h-100 object-cover' />
               <div className='p-4'>
                 <h2 className='text-xl font-semibold text-white'>{char.name}</h2>
                 <p className='text-purple-300 mt-2'>{char.gender}</p>
